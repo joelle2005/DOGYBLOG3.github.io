@@ -1,0 +1,184 @@
+
+
+* {
+    
+}
+
+body { 
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+}
+
+section.top-page {
+    background-image: url(./photos/fond.webp) ;
+    background-size: cover;
+    height: 85vh;
+    padding: 30px;
+}
+
+.landing-page {
+    padding: 20px 80px;
+}
+
+.scroll-down {
+    color: white;
+    position:absolute;
+}
+
+.big-title {
+    color: black;
+    font-size: 80px;
+}
+
+nav.nav {
+    display: flex; 
+    justify-content:space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: brown;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items {
+    margin: 100px;
+
+}
+
+.best-dogs {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dog-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 400px;
+    flex: 1;
+}
+
+.dog1 {
+    background-image: url(./photos/dog-1742295__480.jpg);
+}
+
+.dog2 {
+    background-image: url(./photos/dalmatian-1020790__480.jpg);
+}
+
+.dog3 {
+    background-image: url(./photos/dog-7174266__480.webp);
+}
+
+.dog-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #ffffffdf;
+    padding: 5px 20px;
+}
+
+.dog-name {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 5px;
+}
+
+
+.dog-price {
+    color: brown;
+    line-height: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.all-dogs {
+    margin: 100px;
+}
+
+.dog-grid {
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px)
+}
+
+.dog-grid1 {
+    background-image: url(./photos/le\ dog4.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.dog-grid2 {
+    background-image: url(./photos/puppy-1903313_1280.webp);
+}
+
+.dog-grid3 {
+    background-image: url(./photos/dachshund-1519374__480.jpg);
+}
+
+.dog-grid4 {
+    background-image: url(./photos/le\ dog2.webp);
+}
+
+.dog-grid5 {
+    background-image: url(./photos/puppy-1047521__340.webp);
+}
+
+.dog-grid6 {
+    background-image: url(photos/dog-4633734__480.jpg);
+}
+
